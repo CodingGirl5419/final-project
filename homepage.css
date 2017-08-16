@@ -1,0 +1,22 @@
+body {
+      background-image: url("little lilies.jpg");
+      background-size: cover
+      /*image source = https://hubpages.com/art/How-to-Take-Pictures-of-Flowers-with-a-Black-Background*/
+}
+
+
+h1 {
+    color: pink;
+    font-family: verdana;
+    text-align: center
+}
+p {
+    color: white;
+    font-family: verdana;
+    text-align: center
+}
+
+button {
+font-size: 150%;
+background-color: pink
+}
