@@ -22,6 +22,43 @@
   //document.getElementById("bubble").style.width = "204px".height = "204px";
 //}
 
+function exhale(){
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 3000);
+
+}
+
+function inhale(){
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 3000);
+  exhale();
+}
+
+function changeToExhale() {
+  setDuration = 2000;
+  while (true) {
+    if (duration == 2000) {
+      document.getElementById("inhale").innerHTML=("Exhale");
+    }
+  else {
+  duration: 2000;
+  document.getElementById("inhale").innerHTML=("Inhale");
+  }
+
+}
+}
+
+
+function changeToInhale() {
+  duration: 2000;
+  document.getElementById("inhale").innerHTML=("Inhale");
+
+}
+
+function time() {
+  while (true) {
+    setTimeout(changeToExhale, 2000);
+    setTimeout(changeToInhale, 2000);
+  }
+}
 
 var myAudio = document.getElementById("rain");
 function togglePlay() {
