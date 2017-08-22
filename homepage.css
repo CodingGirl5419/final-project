@@ -4,19 +4,67 @@ body {
       /*image source = https://hubpages.com/art/How-to-Take-Pictures-of-Flowers-with-a-Black-Background*/
 }
 
-
 h1 {
+  color: pink;
+  font-family: verdana;
+  text-align: center;
+  font-size: 275%
+}
+
+h2 {
     color: pink;
     font-family: verdana;
-    text-align: center
+    text-align: center;
+    font-size: 190%
 }
-p {
+p span {
     color: white;
     font-family: verdana;
-    text-align: center
+    text-align: center;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+
+}
+
+.space {
+  margin: auto;
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.space2 {
+  margin: auto;
+  width: 10%;
+  height: 5%;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 1%
+}
+
+h3 {
+  color: pink;
+  font-family: verdana;
+  text-align: center;
+  font-size: 175%
 }
 
 button {
-font-size: 150%;
-background-color: pink
+font-size: 115%;
+background-color: pink;
+border-radius: 5px;
+padding: 15px 55px;
+border: 2px solid white;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+    color: black;
 }
