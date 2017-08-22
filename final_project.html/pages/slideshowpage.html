@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid green;
+  padding: 10px;
+}
+</style>
+  <title> Slideshow </title>
+  <script type="text/javascript" src="slideshowpage.js"></script>
+  <link rel = "stylesheet"
+    type = "text/css"
+    href = "slideshowpage.css"/>
+
+</head>
+<body>
+
+  <h1> Slideshow</h1>
+  <p> This slideshow was made to help soothe anxiety by displaying calming images to the user.
+     These images may include and are not limited to:
+     cute animal like bunnies, puppies, and kittens; natural landscapes; colors; etc.</p>
+<p> ________________________________________________________________________</p>
+<p align= "center">
+<button id= "button3" onclick="changePage" type="button" color="black"><a href="./breathing-exercise.html">Breathing Exercise</a></button>
+<button onclick="changePage" type="button"><a href="../homepage.html">Home</a></button>
+<div class = "center">
+<p align= "center">
+
+
+  <h2> Cute Animals </h2>
+    <p align= "center">
+    <button class="button2" onclick="showPicture()" type=button id="slides">show kitten</button>
+    <button class="button2" onclick="showPicture2()" type=button id="slides">show bunny</button>
+    <button class="button2" onclick="showPicture3()" type=button id="slides">show puppy</button>
+    <button class="button2" onclick="showPicture4()" type=button id="slides">show sloth</button>
+    <button class="button2" onclick="showPicture5()" type=button id="slides">show hedgehog</button>
+    <button class="button2" onclick="showPicture6()" type=button id="slides">show polar bear</button>
+
+
+    <img id= "cute-animal1" src="cute-animals.jpg" style="display: none;" width="175" height="175"></img>
+
+  <h3> Natural Landscapes </h3>
+  <p align= "center">
+  <button class="button2" onclick="showLandscape()" type=button id="slides">show lake</button>
+  <button class="button2" onclick="showLandscape2()" type=button id="slides">show beach</button>
+  <button class="button2" onclick="showLandscape3()" type=button id="slides">show mountains</button>
+  <button class="button2" onclick="showLandscape4()" type=button id="slides">show waterfall</button>
+  <button class="button2" onclick="showLandscape5()" type=button id="slides">show winter</button>
+  <button class="button2" onclick="showLandscape6()" type=button id="slides">show sunset</button>
+  <img id= "natural-landscape1"src="natural-landscape.jpg"style= "display: none;" width="300" height="175"></img>
+    </p>
+
+  <h4> Sounds </h4>
+  <p>Here are some sounds to choose from to listen to.</p>
+  <p>If you choose not to listen to multiple sounds or want</p>
+  <p>the sound to stop, just click the button again to pause it.</p>
+  <p>_________________________________________________</p>
+  <p align= "center">
+  <audio id="rain" src="./rain.mp3.mp3"></audio>
+  <img src="rain icon.jpg" onclick="togglePlay()" style="width:204px;height:204px;">
+  <!--image source: https://wall.alphacoders.com/big.php?i=554452-->
+
+  <audio id="sea" src="./sea.mp3"></audio>
+  <img src="sea.jpg" onclick="togglePlay2()" style="width:204px;height:204px;">
+  <!--image source: http://art-vek.com/catalog/more-i-okean/-->
+
+  <audio id="fire" src="./fire.mp3"></audio>
+  <img src="fire.jpeg" onclick="togglePlay3()" style="width:204px;height:204px;">
+  <!--image source: http://1000awesomethings.com/2008/12/09/878-the-smell-and-sound-of-a-campfire/-->
+
+  <audio id="nightingales" src="./nightingales.mp3"></audio>
+  <img src="nightingales.jpg" onclick="togglePlay4()" style="width:204px;height:204px;">
+  <!--image source: http://www.rspb.org.uk/community/placestovisit/minsmere/b/minsmere-blog/archive/2017/05/15/species-of-the-week-nightingale.aspx-->
+
+  <audio id="creek" src="./creek.mp3"></audio>
+  <img src="creek.jpg" onclick="togglePlay5()" style="width:204px;height:204px;">
+  <!--image source: http://www.wikiwand.com/en/Taylor-Massey_Creek-->
+
+</html>
