@@ -36,6 +36,20 @@ function changeToExhale() {
 }
 }
 
+
+function changeToInhale() {
+  duration: 2000;
+  document.getElementById("inhale").innerHTML=("Inhale");
+
+}
+
+function time() {
+  while (true) {
+    setTimeout(changeToExhale, 2000);
+    setTimeout(changeToInhale, 2000);
+  }
+}
+
 var myAudio = document.getElementById("rain");
 function togglePlay() {
   if (rain.paused){
