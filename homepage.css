@@ -42,7 +42,12 @@ p span {
   border: 2px solid white;
   border-radius: 8px;
   padding: 10px;
-  margin-top: 1%
+  margin-top: -5%
+}
+
+img {
+  margin-left: 5%;
+  margin-top: -2%;
 }
 
 h3 {
