@@ -24,6 +24,25 @@
 
 function exhale(){
   setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 3000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 6000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 9000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 12000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 15000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 18000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 21000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 24000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 17000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 30000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 33000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 36000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 39000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 42000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 45000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 48000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 51000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 54000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 57000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 60000);
 
 }
 
