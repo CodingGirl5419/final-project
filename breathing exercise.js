@@ -14,13 +14,69 @@
 
 //}
 
-function Inhale() {
-  document.getElementById("bubble").style.width = "400px".height = "400px"
+function exhale(){
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 3000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 6000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 9000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 12000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 15000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 18000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 21000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 24000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 17000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 30000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 33000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 36000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 39000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 42000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 45000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 48000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 51000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 54000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 57000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 60000);
 }
 
-function Exhale() {
-  document.getElementById("bubble").style.width = "204px".height = "204px"
+function inhale(){
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 3000);
+  exhale();
 }
+
+function changeToExhale() {
+  setDuration = 2000;
+  while (true) {
+    if (duration == 2000) {
+      document.getElementById("inhale").innerHTML=("Exhale");
+    }
+  else {
+  duration: 2000;
+  document.getElementById("inhale").innerHTML=("Inhale");
+  }
+
+}
+}
+
+
+function changeToInhale() {
+  duration: 2000;
+  document.getElementById("inhale").innerHTML=("Inhale");
+
+}
+
+function time() {
+  while (true) {
+    setTimeout(changeToExhale, 2000);
+    setTimeout(changeToInhale, 2000);
+  }
+}
+
+//function Inhale() {
+  //document.getElementById("bubble").style.width = "400px".height = "400px"
+//}
+
+//function Exhale() {
+  //document.getElementById("bubble").style.width = "204px".height = "204px"
+//}
 
 var myAudio = document.getElementById("rain")
 function togglePlay() {
