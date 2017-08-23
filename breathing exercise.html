@@ -7,34 +7,56 @@
   <link rel = "stylesheet"
     type = "text/css"
     href = "breathing-exercise.css" />
+
+
 </head>
 
-<body>
+<body onload="exhale()">
 <h1>Breathing Exercise</h1>
 <p>This breathing exercise is meant for you to slow your heartrate and calm your mind.</p>
+<p>Inhale when the bubble gets bigger and exhale when the bubble gets smaller.</p>
 <p>___________________________________________________________________________________</p>
 <p align="center">
-<img id="bubble" src="bubble.png" style="width:204px;height:204px;">
-<button onclick="Inhale();">Inhale</button>
-<button onclick="Exhale();">Exhale</button>
-<div {
-  width: 200px;
-  height: 200px;
-  background-color: coral;
-  animation: trial 2s 1s infinite alternate;
-}>
+<button onclick="" type="button" color="white"><a href="./slideshowpage.html">Slideshow</a></button>
+<button onclick="" type="button"><a href="../homepage.html">Home</a></button>
+<p align="center">
+<!--<img id="bubble" src="bubble.png" style="width:204px;height:204px;">-->
+<!--image source: http://clipground.com/bubble-clipart.html-->
+
+<!--<button onclick="Inhale();">Inhale</button>-->
+<!--<button onclick="Exhale();">Exhale</button>-->
+
+<div id="bubble" class="bubble">
+<img src = "bubble.png" style="width:204px;height:204px;"/>
+
+<h2 id="inhale">Inhale</h2>
+
+</div>
+<p align="center">
+<!--<button id="inhale" onclick="">Inhale</button>-->
 <h1>Sounds</h1>
-<p>Here are some sounds to choose from to listen to.</p>
-<p>_________________________________________________</p>
+<p>Here are some sounds to choose from to listen to. You can listen to more than one sound at once.</p>
+<p>If you choose not to listen to multiple sounds or want the sound to stop, just click the button again to pause it.</p>
+<p>________________________________________________________________________________________</p>
 <p align="center">
 <audio id="rain" src="./rain.mp3.mp3"></audio>
 <img src="rain icon.jpg" onclick="togglePlay()" style="width:204px;height:204px;">
+<!--image source: https://wall.alphacoders.com/big.php?i=554452-->
 
 <audio id="sea" src="./sea.mp3"></audio>
 <img src="sea.jpg" onclick="togglePlay2()" style="width:204px;height:204px;">
+<!--image source: http://art-vek.com/catalog/more-i-okean/-->
 
 <audio id="fire" src="./fire.mp3"></audio>
 <img src="fire.jpeg" onclick="togglePlay3()" style="width:204px;height:204px;">
+<!--image source: http://1000awesomethings.com/2008/12/09/878-the-smell-and-sound-of-a-campfire/-->
 
+<audio id="nightingales" src="./nightingales.mp3"></audio>
+<img src="nightingales.jpg" onclick="togglePlay4()" style="width:204px;height:204px;">
+<!--image source: http://www.rspb.org.uk/community/placestovisit/minsmere/b/minsmere-blog/archive/2017/05/15/species-of-the-week-nightingale.aspx-->
+
+<audio id="creek" src="./creek.mp3"></audio>
+<img src="creek.jpg" onclick="togglePlay5()" style="width:204px;height:204px;">
+<!--image source: http://www.wikiwand.com/en/Taylor-Massey_Creek-->
 </body>
 </html>
