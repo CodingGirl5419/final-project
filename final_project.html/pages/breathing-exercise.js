@@ -22,6 +22,16 @@
   //document.getElementById("bubble").style.width = "204px".height = "204px";
 //}
 
+function exhale(){
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 3000);
+
+}
+
+function inhale(){
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 3000);
+  exhale();
+}
+
 function changeToExhale() {
   setDuration = 2000;
   while (true) {
