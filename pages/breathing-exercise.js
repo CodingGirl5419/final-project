@@ -31,7 +31,7 @@ function exhale(){
   setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 18000);
   setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 21000);
   setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 24000);
-  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 17000);
+  setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 27000);
   setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 30000);
   setTimeout(function(){document.getElementById("inhale").innerHTML=("Exhale");}, 33000);
   setTimeout(function(){document.getElementById("inhale").innerHTML=("Inhale");}, 36000);
